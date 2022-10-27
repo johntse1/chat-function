@@ -3,7 +3,7 @@ import io from 'socket.io-client'
 import { useState } from 'react';
 import Chat from './Chat';
 //backend connection
-const socket  = io.connect("http://localhost:3001");
+const socket  = io.connect("ancient-frost-1621.fly.dev:8080");
 
 function App() {
   
