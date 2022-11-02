@@ -1,12 +1,11 @@
-# fly.toml file generated for withered-surf-4672 on 2022-10-27T02:15:31-04:00
+# fly.toml file generated for wild-water-4286 on 2022-10-28T18:42:14-04:00
 
-app = "withered-surf-4672"
+app = "wild-water-4286"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
 [env]
-  PORT = "8080"
 
 [experimental]
   allowed_public_ports = []
