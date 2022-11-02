@@ -6,10 +6,9 @@ const cors = require("cors");
 //creates the server with socket.io
 const {Server} = require("socket.io")
 app.use(cors());
-
+var 
 
 const server = http.createServer(app);
-//
 const io = new Server(server, {
     cors:{
         //which url is calling/called
